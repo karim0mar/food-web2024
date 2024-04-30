@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+    <!-- ▄︻デ══━一💥   Name : Karim Omar-->
+    <!--(๑`^´๑)︻デ═一  ID : 20230415-->
+
+<body id = "body-karim">
+    <iframe src="https://www.wikifood-eg.com/en" width="400" height="300" style="position: absolute;right: 1;" frameborder="0"></iframe>
+
+    <div class="container-karim">
+        <div style="display: flex; align-items: center;">
+            <img src="./img/all.png" id="MENU_LOGO" style="margin-right: 10px;">
+            <a id = "link-karim" href="../home.html">>Home</a>
+        </div>
+        
+        <label>We would like your feedback to improve our website.</label>
+        <p class = "p-karim">What's your opinion of this page?</p>
+        <div class="star-widget">
+                <input type="radio" id="rate-1" name="rate">
+                <label for="rate-1" class="fa fa-star"></label>
+                <input type="radio" id="rate-2" name="rate">
+                <label for="rate-2" class="fa fa-star"></label>
+                <input type="radio" id="rate-3" name="rate">
+                <label for="rate-3" class="fa fa-star"></label>
+                <input type="radio" id="rate-4" name="rate">
+                <label for="rate-4" class="fa fa-star"></label>
+                <input type="radio" id="rate-5" name="rate">
+                <label for="rate-5" class="fa fa-star"></label>
+                <input type="radio" id="rate-6" name="rate">
+        </div>
+        <p class = "p-karim">Please leave your feedback below</p>
+        <form id = "myForm" action="#" method ="get">
+            <div class="textarea">
+                <textarea required id="feedbackTextArea" cols="30" placeholder="Describe Your Problem..." onclick="document.getElementById('feedbackTextArea').style = 'text-align: left'"></textarea>
+            </div>
+                <button type="submit">Send</button>
+        </form>
+
+    </div>
+    <div id="ad">
+        <video controls autoplay id="video-karim">
+            <source src="./img/ad_preview.mp4" type="video/mp4">
+        </video>
+        <label>AD</label>
+    </div>
+    <script src="index.js"></script>
+    <script>feedback();</script>
+</body>
+
+</html>
